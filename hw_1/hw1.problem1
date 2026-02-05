@@ -1,0 +1,29 @@
+Script started on Sat Jan 24 13:31:44 2026
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro 520-Assignments % [K[?2004heecho "[7mHello and welcome to the new quarter![27m[37D[27mH[27me[27ml[27ml[27mo[27m [27ma[27mn[27md[27m [27mw[27me[27ml[27mc[27mo[27mm[27me[27m [27mt[27mo[27m [27mt[27mh[27me[27m [27mn[27me[27mw[27m [27mq[27mu[27ma[27mr[27mt[27me[27mr[27m!\![1C"[?2004l
+Hello and welcome to the new quarter!
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro 520-Assignments % [K[?2004hddate[?2004l
+Sat Jan 24 13:32:04 PST 2026
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro 520-Assignments % [K[?2004heecho $HOME[?2004l
+/Users/danielfang
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro 520-Assignments % [K[?2004hccd $HOME[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hmmkdit  r temp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004h mmv temp[1m/[0m[0m temp_new[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hccd temp_new[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro temp_new % [K[?2004httouch le  file5[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro temp_new % [K[?2004hmmv file5[1m [0m[0m test[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro temp_new % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hmm  rrm -r temp_new[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004heecho "It's .  a sc ecret\!" >> secret_file     file[?2004l
+zsh: permission denied: secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hecho "It's a secret\!" >> secretfile[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hlls[?2004l
+Applications	development	Downloads	go		local_projects	Music		Public		Spitfire
+Desktop		Documents	drivers		Library		Movies		Pictures	secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hcchmod a-r   555 secretfile[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hlls -l secretfile[1m [0m[0m [?2004l
+-r-xr-xr-x@ 1 danielfang  staff  15 Jan 24 13:36 secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004hccat >> secretfile[1m [0m[0m [?2004l
+zsh: permission denied: secretfile
+[1m[7m%[27m[1m[0m                                                                                                                                         [0m[27m[24m[J(base) danielfang@DanieldeMacBook-Pro ~ % [K[?2004heexit[?2004l
+
+Script done on Sat Jan 24 13:38:40 2026
